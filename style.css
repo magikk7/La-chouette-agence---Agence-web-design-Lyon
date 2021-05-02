@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.texte-italic {
+    font-style: italic;
+}
+
+.texte-imp {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
