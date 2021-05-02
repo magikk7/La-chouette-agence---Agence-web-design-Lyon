@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 2!important;
 }
 
 .ombre {
@@ -35,6 +36,15 @@ p {
 .ltc-white:hover {
     /* color: #cccccc!important; */
     font-size:20px;
+}
+/*padding top*/
+.pt-1 {
+    padding-top : 30px;
+}
+
+/* div.pt-1 div.col-sm-4 ul { */
+div.pt-1 ul {
+    padding-top : 20px;
 }
 
 a,
