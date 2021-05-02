@@ -1078,12 +1078,15 @@ h4 {
         padding-right: 0;
     }
 }
-
+/*padding top des liens*/
 @media (max-width: 768px) {
-    /*padding top des liens*/
     div.pt-1 {
         display: none;
     } 
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        /* display: block; */
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 767px) {
