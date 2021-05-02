@@ -41,8 +41,7 @@ p {
 .pt-1 {
     padding-top : 30px;
 }
-
-/* div.pt-1 div.col-sm-4 ul { */
+/*padding top des liens*/
 div.pt-1 ul {
     padding-top : 20px;
 }
@@ -1078,6 +1077,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+}
+
+@media (max-width: 768px) {
+    /*padding top des liens*/
+    div.pt-1 {
+        display: none;
+    } 
 }
 
 @media (max-width: 767px) {
