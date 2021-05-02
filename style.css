@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.ombre {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.dark {
+    color: #000!important;
+}
+
 .texte-italic {
     font-style: italic;
 }
@@ -14,6 +22,19 @@ body {
 .texte-imp {
     font-size: 20px;
     font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+}
+
+.ltc-white {
+    color: #333333!important;
+}
+
+.ltc-white:hover {
+    /* color: #cccccc!important; */
+    font-size:20px;
 }
 
 a,
@@ -108,13 +129,13 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
-
+/**/
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(51, 51, 51, .7);
 }
-
+/**/
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(51, 51, 51, .9);
 }
 
 .d-bloc .icon-round,
@@ -143,7 +164,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(51, 51, 51, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -160,7 +181,22 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+
+/**/
+.d-bloc a .icon-sm,
+.d-bloc a .icon-md,
+.d-bloc a .icon-lg,
+.d-bloc a .icon-xl {
+    font-size: 40px!important;
+}
+/**/
+.d-bloc a:hover .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-xl {
+    text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -686,10 +722,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -790,20 +822,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
-
-.ltc-white {
-    color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
+    background: #333333!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine {
