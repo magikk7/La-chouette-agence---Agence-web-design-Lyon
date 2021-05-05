@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 2!important;
+    line-height: 1.5!important;
 }
 
 .ombre {
